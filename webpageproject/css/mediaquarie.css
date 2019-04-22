@@ -1,0 +1,74 @@
+
+@media only screen and (max-width:768px){
+ 
+    /** Navegation Menu **/
+    
+    .brand-name {
+        font-size: 30px;
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+        position:relative;
+    }
+    header li{
+
+        font-size: 20px;
+        float: none;
+        text-align: center;
+        width: 100%;
+        display: inline;
+        
+        
+    } 
+    
+    .banner {
+        min-height: 200px;
+               
+    }
+
+.banner h2 {
+
+    font-size: 60px;
+    padding-top: 25px;
+    }
+
+.banner p {
+    font-size: 25px;
+    margin: 20px;   
+}
+
+    
+/** Media Header style **/
+
+
+.header-style span:before,
+.header-style span:after {
+    
+  height: 10px;
+  border-bottom: 2px solid #728A80;
+  border-top: 2px solid #728A80;
+  width: 768px;
+}
+
+.media-box p{
+    font-size: 28px;
+    }    
+    
+    video{
+        width: 100%;
+    } 
+  
+    audio {
+        
+        width: 100%;
+    }
+}
+
+
+
+
+
+  
+
+    
+    

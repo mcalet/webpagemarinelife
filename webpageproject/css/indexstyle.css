@@ -1,0 +1,237 @@
+/** Webpage Font Family & Background color **/
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
+    background-color: #f7f9fb;
+    }
+
+/** Navegation Menu style **/
+
+header {
+    
+    padding-top: 20px;
+    min-height: 70px;
+    }
+
+.container {
+    
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    }
+
+.brand-name {
+        
+        text-decoration: none;
+        font-size: 55px;
+        color: black;
+        margin: 1px;
+        position: absolute;  
+        font-family: 'Arimo', sans-serif;
+        color: #111;
+        font-weight: 900;
+        }
+
+
+header ul li a {
+    
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 600;
+    color: #111;
+    }
+
+header li {
+    
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 10px 25px 15px 1px;
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    }
+
+  
+header a:hover{
+    
+    color: darkturquoise;
+    font-weight: bold;
+    cursor:pointer;
+    }
+
+/** Banner & Main Title **/
+
+.banner {
+    
+    width: 100%;
+    background-size: cover;
+    min-height: 300px;
+    background-image: url('img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: 1px;
+    text-align: center;
+    color: #ffffff;
+    }
+
+.banner h2 {
+
+    font-size: 80px;
+    text-shadow: 3px 2px 8px black;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+    }
+
+.banner p {
+    
+    font-size: 30px;
+    text-shadow: 3px 2px 8px black;
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    }
+
+
+
+/** Media Header style **/
+
+.header-style {
+    
+  line-height: 0.5;
+  text-align: center;
+}
+
+.header-style span {
+    
+  display: inline-block;
+  position: relative;  
+}
+
+.header-style span:before,
+.header-style span:after {
+  
+    content: "";
+  position: absolute;
+  height: 25px;
+  border-bottom: 4px solid #728A80;
+  border-top: 4px solid #728A80;
+  top: 0;
+  width: 1200px;
+}
+
+.header-style span:before {
+  
+    right: 100%;
+    margin-right: 25px;
+}
+
+.header-style span:after {
+  left: 100%;
+  margin-left: 25px;
+}
+
+.media-box p{
+    font-size: 48px;
+    font-weight: 500;
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+
+/** Media Audio & Video Style **/
+
+.media-box {
+    
+    text-align: center;
+    margin: 20px;
+    
+}
+
+video {
+    margin-top: 20px;
+      
+}
+
+audio {
+    width: 400px;
+    height: 100px;  
+}
+
+
+/** Footer & Newsletter Subscription Form  **/
+
+footer {
+    
+    margin: 0px;
+    padding-top: 20px;
+    background-color: #e0f3ff;
+    width: 100%;
+    position: absolute;
+
+}
+
+ footer ul {
+     
+    list-style: none;
+     font-size: 35px;   
+    
+}
+
+footer a {
+    
+    text-decoration: none;
+    color: black;  
+}    
+
+footer a:hover {
+    
+    color: darkturquoise;
+    font-weight: bold;
+    cursor:pointer; 
+}
+
+
+
+.newsletter {
+    text-align: center;
+    margin: 30px;
+      
+}
+
+input[type=email] {
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 12px;
+    width: 15%;
+}
+
+input[type=email]:focus {
+  border: 3px solid #555;
+}
+
+.button-1{
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color:antiquewhite;
+    color:black;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.button-1:hover {background-color: #3e8e41}
+
+.button-1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer p {
+    float: right;
+    
+}
